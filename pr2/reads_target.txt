@@ -1,0 +1,2 @@
+14276 read(3</home/lulu/pr2/data/01.log>, "2026-02-01 00:00:28 INFO module="..., 19077) = 19076
+14276 read(3</home/lulu/pr2/data/01.log>, "", 1) = 0

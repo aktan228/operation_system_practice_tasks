@@ -1,0 +1,3 @@
+Ошибка: неверное число аргументов
+Использование: ./report.sh <каталог> <ERROR|WARN> [--top N]
+Пример: ./report.sh data ERROR --top 3
