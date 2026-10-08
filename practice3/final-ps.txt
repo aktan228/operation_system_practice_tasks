@@ -1,0 +1,11 @@
+    PID    PPID STAT COMMAND
+    344     343 Ss+  -bash
+    391       1 Ss   /usr/lib/systemd/systemd --user
+    394     391 S    (sd-pam)
+    413     345 Ss+  -bash
+   2199    2196 Ss+  -bash
+   2280    2278 Ss+  -bash
+   2381    2378 Ss   -bash
+   2808    2805 Ss+  -bash
+   3628    2381 R+   ps -u 1000 -o pid,ppid,stat,args
+   3629    2381 S+   tee final-ps.txt
