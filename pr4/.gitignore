@@ -1,0 +1,4 @@
+numbers.txt
+web/
+__pycache__/
+*.pyc
