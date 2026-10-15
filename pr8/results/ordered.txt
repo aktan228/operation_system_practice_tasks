@@ -1,0 +1,3 @@
+T2: finished
+T1: finished
+ORDERED: both threads finished

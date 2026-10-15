@@ -1,0 +1,22 @@
+T1: first lock acquired
+T2: first lock acquired
+Timeout (0:00:00.300000)!
+Thread 0x00007bccc97586c0 [T2] (most recent call first):
+  File "/home/lulu/repo-for-practice3/pr8/deadlock.py", line 32 in worker
+  File "/usr/lib/python3.14/threading.py", line 1024 in run
+  File "/usr/lib/python3.14/threading.py", line 1082 in _bootstrap_inner
+  File "/usr/lib/python3.14/threading.py", line 1044 in _bootstrap
+
+Thread 0x00007bccc9f596c0 [T1] (most recent call first):
+  File "/home/lulu/repo-for-practice3/pr8/deadlock.py", line 32 in worker
+  File "/usr/lib/python3.14/threading.py", line 1024 in run
+  File "/usr/lib/python3.14/threading.py", line 1082 in _bootstrap_inner
+  File "/usr/lib/python3.14/threading.py", line 1044 in _bootstrap
+
+Thread 0x00007bcccb0fe1c0 [python3] (most recent call first):
+  File "/usr/lib/python3.14/threading.py", line 1133 in join
+  File "/home/lulu/repo-for-practice3/pr8/deadlock.py", line 54 in run
+  File "/home/lulu/repo-for-practice3/pr8/deadlock.py", line 72 in main
+  File "/home/lulu/repo-for-practice3/pr8/deadlock.py", line 76 in <module>
+
+OBSERVED: still blocked at timeout; wrapper killed the process.

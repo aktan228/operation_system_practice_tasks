@@ -1,0 +1,5 @@
+Mode           P0     P1     P2     P3     P4   Alive
+naive           0      0      0      0      0       5
+ordered       560    627    639    649    559       0
+waiter        587    586    587    586    586       0
+Saved results/philosophers.json; naive worker process exits with its intentionally blocked daemon threads.

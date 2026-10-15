@@ -1,0 +1,12 @@
+{
+  "resources": ["A", "B", "C"],
+  "available": [3, 3, 2],
+  "processes": [
+    {"pid": "P0", "allocation": [0, 1, 0], "max": [7, 5, 3]},
+    {"pid": "P1", "allocation": [2, 0, 0], "max": [3, 2, 2]},
+    {"pid": "P2", "allocation": [3, 0, 2], "max": [9, 0, 2]},
+    {"pid": "P3", "allocation": [2, 1, 1], "max": [2, 2, 2]},
+    {"pid": "P4", "allocation": [0, 0, 2], "max": [4, 3, 3]}
+  ],
+  "scan_order": ["P1", "P3", "P4", "P2", "P0"]
+}

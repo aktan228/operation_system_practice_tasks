@@ -1,0 +1,68 @@
+[
+  {
+    "mode": "naive",
+    "requested_seconds": 2.0,
+    "actual_seconds": 2.001044,
+    "meals": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_wait_seconds": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "alive_at_end": 5,
+    "errors": [],
+    "deadlock_reproduced": true
+  },
+  {
+    "mode": "ordered",
+    "requested_seconds": 2.0,
+    "actual_seconds": 2.004137,
+    "meals": [
+      560,
+      627,
+      639,
+      649,
+      559
+    ],
+    "max_wait_seconds": [
+      0.0038632130003861676,
+      0.0031270739996216435,
+      0.0028736650001519592,
+      0.0025146990001303493,
+      0.0039701659998172545
+    ],
+    "alive_at_end": 0,
+    "errors": [],
+    "deadlock_reproduced": false
+  },
+  {
+    "mode": "waiter",
+    "requested_seconds": 2.0,
+    "actual_seconds": 2.004102,
+    "meals": [
+      587,
+      586,
+      587,
+      586,
+      586
+    ],
+    "max_wait_seconds": [
+      0.0028574920002029103,
+      0.003092837000167492,
+      0.0024368499998672633,
+      0.0024055409999164112,
+      0.002502160000403819
+    ],
+    "alive_at_end": 0,
+    "errors": [],
+    "deadlock_reproduced": false
+  }
+]

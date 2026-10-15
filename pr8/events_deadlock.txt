@@ -1,0 +1,5 @@
+# Each resource has exactly one instance.
+acquire T1 A
+acquire T2 B
+wait T1 B
+wait T2 A

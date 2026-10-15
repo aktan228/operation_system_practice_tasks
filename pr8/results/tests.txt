@@ -1,0 +1,15 @@
+test_bank_reference_states (__main__.PracticeTests.test_bank_reference_states) ... ok
+test_bank_requests_and_exact_rollback (__main__.PracticeTests.test_bank_requests_and_exact_rollback) ... ok
+test_banker_against_exhaustive_search (__main__.PracticeTests.test_banker_against_exhaustive_search) ... ok
+test_invalid_requests (__main__.PracticeTests.test_invalid_requests) ... ok
+test_ordered_and_tracked_finish (__main__.PracticeTests.test_ordered_and_tracked_finish) ... ok
+test_philosophers_all_modes (__main__.PracticeTests.test_philosophers_all_modes) ... ok
+test_raw_deadlock_is_real_and_dumped (__main__.PracticeTests.test_raw_deadlock_is_real_and_dumped) ... ok
+test_tracked_lock_timeout_nonblocking_and_owner (__main__.PracticeTests.test_tracked_lock_timeout_nonblocking_and_owner) ... ok
+test_wait_graph_logs_and_cycle_participants (__main__.PracticeTests.test_wait_graph_logs_and_cycle_participants) ... ok
+test_wait_graph_rebuilds_edges_after_resource_changes (__main__.PracticeTests.test_wait_graph_rebuilds_edges_after_resource_changes) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.473s
+
+OK

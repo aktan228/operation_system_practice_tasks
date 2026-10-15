@@ -1,0 +1,5 @@
+T1: first lock acquired
+T2: first lock acquired
+DEADLOCK: T1@126644239718080 -> T2@126644157150912 -> T1@126644239718080
+T2: finished
+RECOVERED: exception released held locks through with; graph empty
