@@ -1,0 +1,84 @@
+{
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python": "3.14.4",
+  "count": 10000000,
+  "bytes": 40000000,
+  "repeats": 3,
+  "runs": [
+    {
+      "mechanism": "shared_memory",
+      "count": 10000000,
+      "bytes": 40000000,
+      "handoff_seconds": 0.09213944299972354,
+      "verified_seconds": 0.14146695299996281,
+      "sha256": "8a966ce88ca6210619d99704f93a981eaa59665c5033711826783c127ff88c01",
+      "correct": true,
+      "shm_name": "psm_e630cab5"
+    },
+    {
+      "mechanism": "pipe",
+      "count": 10000000,
+      "bytes": 40000000,
+      "handoff_seconds": 0.0857740230003401,
+      "verified_seconds": 0.1313124240000434,
+      "sha256": "8a966ce88ca6210619d99704f93a981eaa59665c5033711826783c127ff88c01",
+      "correct": true,
+      "shm_name": null
+    },
+    {
+      "mechanism": "pipe",
+      "count": 10000000,
+      "bytes": 40000000,
+      "handoff_seconds": 0.07703617500010296,
+      "verified_seconds": 0.12346697400016637,
+      "sha256": "8a966ce88ca6210619d99704f93a981eaa59665c5033711826783c127ff88c01",
+      "correct": true,
+      "shm_name": null
+    },
+    {
+      "mechanism": "shared_memory",
+      "count": 10000000,
+      "bytes": 40000000,
+      "handoff_seconds": 0.08625224600018555,
+      "verified_seconds": 0.13522123500024463,
+      "sha256": "8a966ce88ca6210619d99704f93a981eaa59665c5033711826783c127ff88c01",
+      "correct": true,
+      "shm_name": "psm_a9f60c4f"
+    },
+    {
+      "mechanism": "shared_memory",
+      "count": 10000000,
+      "bytes": 40000000,
+      "handoff_seconds": 0.08019804300010946,
+      "verified_seconds": 0.12973475899980258,
+      "sha256": "8a966ce88ca6210619d99704f93a981eaa59665c5033711826783c127ff88c01",
+      "correct": true,
+      "shm_name": "psm_d2765f24"
+    },
+    {
+      "mechanism": "pipe",
+      "count": 10000000,
+      "bytes": 40000000,
+      "handoff_seconds": 0.07621825800015358,
+      "verified_seconds": 0.12192950600001495,
+      "sha256": "8a966ce88ca6210619d99704f93a981eaa59665c5033711826783c127ff88c01",
+      "correct": true,
+      "shm_name": null
+    }
+  ],
+  "medians": [
+    {
+      "mechanism": "shared_memory",
+      "bytes": 40000000,
+      "handoff_seconds": 0.08625224600018555,
+      "verified_seconds": 0.13522123500024463
+    },
+    {
+      "mechanism": "pipe",
+      "bytes": 40000000,
+      "handoff_seconds": 0.07703617500010296,
+      "verified_seconds": 0.12346697400016637
+    }
+  ],
+  "cleanup_ok": true
+}

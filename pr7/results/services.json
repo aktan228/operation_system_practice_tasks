@@ -1,0 +1,237 @@
+{
+  "fifo": [
+    {
+      "client_pid": 3428,
+      "expression": "(12 + 8) * 3",
+      "response": {
+        "id": "ef059521e20c4c47b08786a05e7a2585",
+        "ok": true,
+        "result": 60
+      },
+      "seconds": 0.0013287930000842607,
+      "wire_bytes": 142
+    },
+    {
+      "client_pid": 3429,
+      "expression": "(12 + 8) * 3",
+      "response": {
+        "id": "f0555eb0dd4446bfba29b3120698f203",
+        "ok": true,
+        "result": 60
+      },
+      "seconds": 0.0010403250003037101,
+      "wire_bytes": 142
+    },
+    {
+      "client_pid": 3430,
+      "expression": "(12 + 8) * 3",
+      "response": {
+        "id": "9132171375ce437181f28d0cbf9f4fd8",
+        "ok": true,
+        "result": 60
+      },
+      "seconds": 0.0016202460001295549,
+      "wire_bytes": 142
+    },
+    {
+      "client_pid": 3431,
+      "expression": "(12 + 8) * 3",
+      "response": {
+        "id": "642ae1078c954fe8afa68e16ddc8e390",
+        "ok": true,
+        "result": 60
+      },
+      "seconds": 0.0009984749999603082,
+      "wire_bytes": 142
+    },
+    {
+      "client_pid": 3432,
+      "expression": "(12 + 8) * 3",
+      "response": {
+        "id": "7b55a56b14b14d7399a81c4aec0ce216",
+        "ok": true,
+        "result": 60
+      },
+      "seconds": 0.0011276810000708792,
+      "wire_bytes": 142
+    },
+    {
+      "client_pid": 3433,
+      "expression": "(12 + 8) * 3",
+      "response": {
+        "id": "e09ef3dd09ac4d19ba3644c3e4549230",
+        "ok": true,
+        "result": 60
+      },
+      "seconds": 0.0009819299998525821,
+      "wire_bytes": 142
+    },
+    {
+      "client_pid": 3434,
+      "expression": "(12 + 8) * 3",
+      "response": {
+        "id": "4e0c4cb108bf4f2b8c3b4f0123b42546",
+        "ok": true,
+        "result": 60
+      },
+      "seconds": 0.0010940879997178854,
+      "wire_bytes": 142
+    },
+    {
+      "client_pid": 3435,
+      "expression": "(12 + 8) * 3",
+      "response": {
+        "id": "d43a0ab6034d42f3b63514cdce4928e3",
+        "ok": true,
+        "result": 60
+      },
+      "seconds": 0.0011871439996866684,
+      "wire_bytes": 142
+    },
+    {
+      "client_pid": 3436,
+      "expression": "(12 + 8) * 3",
+      "response": {
+        "id": "1ae36dca33c541feaeb56cb3311d18af",
+        "ok": true,
+        "result": 60
+      },
+      "seconds": 0.0015860850003264204,
+      "wire_bytes": 142
+    },
+    {
+      "client_pid": 3437,
+      "expression": "(12 + 8) * 3",
+      "response": {
+        "id": "b214377fec7f49dda9a56d11e67c9ab8",
+        "ok": true,
+        "result": 60
+      },
+      "seconds": 0.0011321750002935005,
+      "wire_bytes": 142
+    }
+  ],
+  "unix": [
+    {
+      "client_pid": 3439,
+      "expression": "0 * 0 + 1",
+      "response": {
+        "id": "ef78dd720461499788cc3fa94f3a74a5",
+        "ok": true,
+        "result": 1,
+        "worker_pid": 3450
+      },
+      "seconds": 0.14468791799981773,
+      "wire_bytes": 158
+    },
+    {
+      "client_pid": 3440,
+      "expression": "1 * 1 + 1",
+      "response": {
+        "id": "fe1b3a99797f48c08f7dca94b4322c82",
+        "ok": true,
+        "result": 2,
+        "worker_pid": 3453
+      },
+      "seconds": 0.13472516399997403,
+      "wire_bytes": 158
+    },
+    {
+      "client_pid": 3441,
+      "expression": "2 * 2 + 1",
+      "response": {
+        "id": "708cec1bd3de461792d8e4325bcca1ef",
+        "ok": true,
+        "result": 5,
+        "worker_pid": 3454
+      },
+      "seconds": 0.1263319549998414,
+      "wire_bytes": 158
+    },
+    {
+      "client_pid": 3442,
+      "expression": "3 * 3 + 1",
+      "response": {
+        "id": "510687b2400a4921a08b8af5b21501ee",
+        "ok": true,
+        "result": 10,
+        "worker_pid": 3451
+      },
+      "seconds": 0.15985781700010193,
+      "wire_bytes": 159
+    },
+    {
+      "client_pid": 3443,
+      "expression": "4 * 4 + 1",
+      "response": {
+        "id": "9305f579d5f449efa0c4e0c4151cb37c",
+        "ok": true,
+        "result": 17,
+        "worker_pid": 3457
+      },
+      "seconds": 0.14528904899998452,
+      "wire_bytes": 159
+    },
+    {
+      "client_pid": 3444,
+      "expression": "5 * 5 + 1",
+      "response": {
+        "id": "a1de007aeff94d73960c4858857b3384",
+        "ok": true,
+        "result": 26,
+        "worker_pid": 3459
+      },
+      "seconds": 0.13597638900000675,
+      "wire_bytes": 159
+    },
+    {
+      "client_pid": 3445,
+      "expression": "6 * 6 + 1",
+      "response": {
+        "id": "31e6e88bf8d94c20a43ea5716c20da05",
+        "ok": true,
+        "result": 37,
+        "worker_pid": 3455
+      },
+      "seconds": 0.13099839899996368,
+      "wire_bytes": 159
+    },
+    {
+      "client_pid": 3446,
+      "expression": "7 * 7 + 1",
+      "response": {
+        "id": "a9a6c7ddbb7a441987497021c361e346",
+        "ok": true,
+        "result": 50,
+        "worker_pid": 3458
+      },
+      "seconds": 0.12689487299985558,
+      "wire_bytes": 159
+    },
+    {
+      "client_pid": 3447,
+      "expression": "8 * 8 + 1",
+      "response": {
+        "id": "b44ee1f5f3424e268fd7ec361b1c2613",
+        "ok": true,
+        "result": 65,
+        "worker_pid": 3456
+      },
+      "seconds": 0.13261261499974353,
+      "wire_bytes": 159
+    },
+    {
+      "client_pid": 3448,
+      "expression": "9 * 9 + 1",
+      "response": {
+        "id": "e8ac98f6b378407ba807638ab7f76bdd",
+        "ok": true,
+        "result": 82,
+        "worker_pid": 3452
+      },
+      "seconds": 0.1264860729997963,
+      "wire_bytes": 159
+    }
+  ],
+  "cleanup_ok": true
+}

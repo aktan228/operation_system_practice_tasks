@@ -1,0 +1,12 @@
+test_arithmetic (__main__.IPCTests.test_arithmetic) ... ok
+test_fifo_sequential_and_concurrent_callers (__main__.IPCTests.test_fifo_sequential_and_concurrent_callers) ... ok
+test_rejects_code_and_bad_requests (__main__.IPCTests.test_rejects_code_and_bad_requests) ... ok
+test_shared_memory_pipe_integrity_and_cleanup (__main__.IPCTests.test_shared_memory_pipe_integrity_and_cleanup) ... ok
+test_sigint_cleanup (__main__.IPCTests.test_sigint_cleanup) ... ok
+test_unix_fragmented_message (__main__.IPCTests.test_unix_fragmented_message) ... ok
+test_unix_independent_worker_processes (__main__.IPCTests.test_unix_independent_worker_processes) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.052s
+
+OK

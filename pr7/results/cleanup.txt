@@ -1,0 +1,6 @@
+WSL Ubuntu, after tests and complete experiment
+pr7 paths in /tmp:
+/dev/shm:
+total 0
+drwxrwxrwt  2 root root   40 Oct 15 11:44 .
+drwxr-xr-x 15 root root 3820 Oct 15 11:12 ..
