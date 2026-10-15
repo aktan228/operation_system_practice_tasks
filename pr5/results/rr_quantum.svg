@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="700" viewBox="0 0 960 700">
+<rect width="960" height="700" fill="white"/>
+<g font-family="sans-serif" font-size="14" fill="#222">
+<text x="480" y="30" text-anchor="middle" font-size="22">Round Robin: quantum 1–10</text>
+<text x="80" y="60" font-size="18">Average waiting (ticks)</text>
+<path d="M80 295.0 H890" stroke="#ddd"/>
+<text x="70" y="300.0" text-anchor="end">0.0</text>
+<path d="M80 240.0 H890" stroke="#ddd"/>
+<text x="70" y="245.0" text-anchor="end">107.7</text>
+<path d="M80 185.0 H890" stroke="#ddd"/>
+<text x="70" y="190.0" text-anchor="end">215.3</text>
+<path d="M80 130.0 H890" stroke="#ddd"/>
+<text x="70" y="135.0" text-anchor="end">323.0</text>
+<path d="M80 75.0 H890" stroke="#ddd"/>
+<text x="70" y="80.0" text-anchor="end">430.7</text>
+<circle cx="80" cy="95.0" r="4" fill="#2563eb"/>
+<text x="80" y="317" text-anchor="middle">1</text>
+<circle cx="170" cy="96.3537675606641" r="4" fill="#2563eb"/>
+<text x="170" y="317" text-anchor="middle">2</text>
+<circle cx="260" cy="96.50702426564499" r="4" fill="#2563eb"/>
+<text x="260" y="317" text-anchor="middle">3</text>
+<circle cx="350" cy="98.16730523627078" r="4" fill="#2563eb"/>
+<text x="350" y="317" text-anchor="middle">4</text>
+<circle cx="440" cy="97.88633461047255" r="4" fill="#2563eb"/>
+<text x="440" y="317" text-anchor="middle">5</text>
+<circle cx="530" cy="101.43678160919544" r="4" fill="#2563eb"/>
+<text x="530" y="317" text-anchor="middle">6</text>
+<circle cx="620" cy="100.389527458493" r="4" fill="#2563eb"/>
+<text x="620" y="317" text-anchor="middle">7</text>
+<circle cx="710" cy="102.816091954023" r="4" fill="#2563eb"/>
+<text x="710" y="317" text-anchor="middle">8</text>
+<circle cx="800" cy="105.08939974457218" r="4" fill="#2563eb"/>
+<text x="800" y="317" text-anchor="middle">9</text>
+<circle cx="890" cy="107.46487867177521" r="4" fill="#2563eb"/>
+<text x="890" y="317" text-anchor="middle">10</text>
+<polyline points="80,95.0 170,96.3537675606641 260,96.50702426564499 350,98.16730523627078 440,97.88633461047255 530,101.43678160919544 620,100.389527458493 710,102.816091954023 800,105.08939974457218 890,107.46487867177521" fill="none" stroke="#2563eb" stroke-width="2"/>
+<text x="480" y="342" text-anchor="middle">Quantum</text>
+<text x="80" y="370" font-size="18">Context switches</text>
+<path d="M80 605.0 H890" stroke="#ddd"/>
+<text x="70" y="610.0" text-anchor="end">0.0</text>
+<path d="M80 550.0 H890" stroke="#ddd"/>
+<text x="70" y="555.0" text-anchor="end">134.2</text>
+<path d="M80 495.0 H890" stroke="#ddd"/>
+<text x="70" y="500.0" text-anchor="end">268.4</text>
+<path d="M80 440.0 H890" stroke="#ddd"/>
+<text x="70" y="445.0" text-anchor="end">402.6</text>
+<path d="M80 385.0 H890" stroke="#ddd"/>
+<text x="70" y="390.0" text-anchor="end">536.8</text>
+<circle cx="80" cy="405.0" r="4" fill="#dc2626"/>
+<text x="80" y="627" text-anchor="middle">1</text>
+<circle cx="170" cy="503.3606557377049" r="4" fill="#dc2626"/>
+<text x="170" y="627" text-anchor="middle">2</text>
+<circle cx="260" cy="535.7377049180328" r="4" fill="#dc2626"/>
+<text x="260" y="627" text-anchor="middle">3</text>
+<circle cx="350" cy="552.5409836065573" r="4" fill="#dc2626"/>
+<text x="350" y="627" text-anchor="middle">4</text>
+<circle cx="440" cy="561.5573770491803" r="4" fill="#dc2626"/>
+<text x="440" y="627" text-anchor="middle">5</text>
+<circle cx="530" cy="568.5245901639345" r="4" fill="#dc2626"/>
+<text x="530" y="627" text-anchor="middle">6</text>
+<circle cx="620" cy="573.0327868852459" r="4" fill="#dc2626"/>
+<text x="620" y="627" text-anchor="middle">7</text>
+<circle cx="710" cy="576.7213114754098" r="4" fill="#dc2626"/>
+<text x="710" y="627" text-anchor="middle">8</text>
+<circle cx="800" cy="579.5901639344262" r="4" fill="#dc2626"/>
+<text x="800" y="627" text-anchor="middle">9</text>
+<circle cx="890" cy="581.6393442622951" r="4" fill="#dc2626"/>
+<text x="890" y="627" text-anchor="middle">10</text>
+<polyline points="80,405.0 170,503.3606557377049 260,535.7377049180328 350,552.5409836065573 440,561.5573770491803 530,568.5245901639345 620,573.0327868852459 710,576.7213114754098 800,579.5901639344262 890,581.6393442622951" fill="none" stroke="#dc2626" stroke-width="2"/>
+<text x="480" y="652" text-anchor="middle">Quantum</text>
+</g></svg>

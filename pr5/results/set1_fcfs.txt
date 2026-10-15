@@ -1,0 +1,11 @@
+Gantt: 0-8:P1 | 8-12:P2 | 12-21:P3 | 21-26:P4
+PID      Arrival   Burst    Prio   First  Finish    Wait    Turn    Resp
+P1             0       8       3       0       8       0       8       0
+P2             1       4       1       8      12       7      11       7
+P3             2       9       4      12      21      10      19      10
+P4             3       5       2      21      26      18      23      18
+Average waiting: 8.75
+Average turnaround: 15.25
+Average response: 8.75
+CPU utilization: 100.00%
+Context switches: 3
