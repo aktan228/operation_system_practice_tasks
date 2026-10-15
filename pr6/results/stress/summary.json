@@ -1,0 +1,876 @@
+{
+  "runs": [
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        515,
+        485
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.128048
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        501,
+        499
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.117961
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        461,
+        539
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.12442
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        510,
+        490
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.103637
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        524,
+        476
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.111879
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        477,
+        523
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.120656
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        500,
+        500
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.124392
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        462,
+        538
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.135057
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        475,
+        525
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.143772
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        462,
+        538
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.143813
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        506,
+        494
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.148336
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        500,
+        500
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.131926
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        478,
+        522
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.142079
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        449,
+        551
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.140347
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        497,
+        503
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.143834
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        519,
+        481
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.137668
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        513,
+        487
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.1321
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        477,
+        523
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.137576
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        464,
+        536
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.144544
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        480,
+        520
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.108534
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        488,
+        512
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.129952
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        515,
+        485
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.13876
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        487,
+        513
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.139212
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        526,
+        474
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.133156
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        504,
+        496
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.146398
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        522,
+        478
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.140729
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        480,
+        520
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.135347
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        503,
+        497
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.137299
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        500,
+        500
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.133439
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        475,
+        525
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.111568
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        445,
+        555
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.112585
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        502,
+        498
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.124797
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        519,
+        481
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.134575
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        453,
+        547
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.130924
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        482,
+        518
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.118362
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        520,
+        480
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.106625
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        504,
+        496
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.113747
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        468,
+        532
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.108193
+    },
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        524,
+        476
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.136433
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        514,
+        486
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.131525
+    }
+  ],
+  "barrier": {
+    "threads": 4,
+    "phases": 3,
+    "generations": 3,
+    "all_phases_valid": true,
+    "events": [
+      "T0: start phase 1",
+      "T0: finish phase 1",
+      "T1: start phase 1",
+      "T2: start phase 1",
+      "T3: start phase 1",
+      "T1: finish phase 1",
+      "T2: finish phase 1",
+      "T3: finish phase 1",
+      "T3: start phase 2",
+      "T0: start phase 2",
+      "T2: start phase 2",
+      "T3: finish phase 2",
+      "T1: start phase 2",
+      "T0: finish phase 2",
+      "T1: finish phase 2",
+      "T2: finish phase 2",
+      "T2: start phase 3",
+      "T3: start phase 3",
+      "T0: start phase 3",
+      "T1: start phase 3",
+      "T2: finish phase 3",
+      "T3: finish phase 3",
+      "T0: finish phase 3",
+      "T1: finish phase 3"
+    ]
+  }
+}

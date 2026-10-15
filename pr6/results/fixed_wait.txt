@@ -1,0 +1,3 @@
+{'case': 'if', 'consumed': [42, 43], 'predicate_rechecked': True, 'violations': []}
+{'case': 'lost', 'consumed': [42], 'violations': []}
+Both examples completed without violations.

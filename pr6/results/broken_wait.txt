@@ -1,0 +1,3 @@
+{'case': 'if', 'consumed': [42], 'violations': ['UNDERFLOW: awakened consumer found an empty buffer']}
+{'case': 'lost', 'received_notification': False, 'item_present_after_timeout': True, 'violations': ['LOST WAKEUP: item exists, but consumer waited until timeout']}
+Expected bugs reproduced. These are intentional failures of the algorithm.

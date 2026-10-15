@@ -1,0 +1,13 @@
+test_barrier_many_generations (__main__.SynchronizationTests.test_barrier_many_generations) ... ok
+test_barrier_three_phases (__main__.SynchronizationTests.test_barrier_three_phases) ... ok
+test_barrier_timeout_breaks_barrier (__main__.SynchronizationTests.test_barrier_timeout_breaks_barrier) ... ok
+test_if_bug_and_fix (__main__.SynchronizationTests.test_if_bug_and_fix) ... ok
+test_lost_notification_and_fix (__main__.SynchronizationTests.test_lost_notification_and_fix) ... ok
+test_producer_consumer_exactly_once (__main__.SynchronizationTests.test_producer_consumer_exactly_once) ... ok
+test_ring_fifo_and_wraparound (__main__.SynchronizationTests.test_ring_fifo_and_wraparound) ... ok
+test_ring_rejects_overflow_and_underflow (__main__.SynchronizationTests.test_ring_rejects_overflow_and_underflow) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.494s
+
+OK

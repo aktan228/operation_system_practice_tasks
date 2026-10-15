@@ -1,0 +1,28 @@
+semaphore  items=1000 max=5/5 exactly_once=OK empty=OK violations=0 time=0.103833s
+condition  items=1000 max=5/5 exactly_once=OK empty=OK violations=0 time=0.117350s
+T0: start phase 1
+T0: finish phase 1
+T1: start phase 1
+T2: start phase 1
+T3: start phase 1
+T1: finish phase 1
+T2: finish phase 1
+T3: finish phase 1
+T3: start phase 2
+T0: start phase 2
+T1: start phase 2
+T3: finish phase 2
+T2: start phase 2
+T0: finish phase 2
+T1: finish phase 2
+T2: finish phase 2
+T2: start phase 3
+T2: finish phase 3
+T0: start phase 3
+T3: start phase 3
+T1: start phase 3
+T3: finish phase 3
+T0: finish phase 3
+T1: finish phase 3
+barrier: 4 threads, 3 phases, all invariants OK
+Saved results/summary.json; violations: results/violations.log

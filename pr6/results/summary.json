@@ -1,0 +1,78 @@
+{
+  "runs": [
+    {
+      "algorithm": "semaphore",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        513,
+        487
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.103833
+    },
+    {
+      "algorithm": "condition",
+      "items": 1000,
+      "producers": 3,
+      "consumers": 2,
+      "capacity": 5,
+      "max_size": 5,
+      "produced_per_thread": [
+        334,
+        333,
+        333
+      ],
+      "consumed_per_thread": [
+        426,
+        574
+      ],
+      "exactly_once": true,
+      "empty_at_end": true,
+      "violations": 0,
+      "seconds": 0.11735
+    }
+  ],
+  "barrier": {
+    "threads": 4,
+    "phases": 3,
+    "generations": 3,
+    "all_phases_valid": true,
+    "events": [
+      "T0: start phase 1",
+      "T0: finish phase 1",
+      "T1: start phase 1",
+      "T2: start phase 1",
+      "T3: start phase 1",
+      "T1: finish phase 1",
+      "T2: finish phase 1",
+      "T3: finish phase 1",
+      "T3: start phase 2",
+      "T0: start phase 2",
+      "T1: start phase 2",
+      "T3: finish phase 2",
+      "T2: start phase 2",
+      "T0: finish phase 2",
+      "T1: finish phase 2",
+      "T2: finish phase 2",
+      "T2: start phase 3",
+      "T2: finish phase 3",
+      "T0: start phase 3",
+      "T3: start phase 3",
+      "T1: start phase 3",
+      "T3: finish phase 3",
+      "T0: finish phase 3",
+      "T1: finish phase 3"
+    ]
+  }
+}
